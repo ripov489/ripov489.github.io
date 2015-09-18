@@ -1,0 +1,42 @@
+body {
+    background-color: gray;
+    color: white;
+    font-size: 20px;
+    font-family: didot;
+}
+
+a {
+    color: #799fbf;
+    text-decoration: none;
+    
+}
+
+h1 {
+    color: black;
+}
+p {
+    background-color: black;
+    font-weight:bold;
+    font-size:18px;
+}
+
+.top {
+    width: 200px;
+    height: 100px;
+    background-color: #799fbf;
+    position: absolute;
+    top: 200px;
+    left: 325px;
+    transform: rotate(90deg);
+}
+
+.circle {
+    background-color: pink;
+    width: 100px;
+    height: 100px;
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    border-radius: 50px;
+    
+}
