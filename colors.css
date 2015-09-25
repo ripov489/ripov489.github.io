@@ -1,0 +1,5 @@
+.pattern {min-height:200px;}
+
+#stripes13 {
+background-image: repeating-linear-gradient(165deg, #ccc, #ccc 60px, #dbdbdb 60px, #dbdbdb 120px);
+}
