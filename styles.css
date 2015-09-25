@@ -1,8 +1,8 @@
 body {
-    background-color: gray;
-    color: white;
-    font-size: 20px;
-    font-family: didot;
+    background-color: white;
+    color: black;
+    font-size: 14px;
+    font-family: futura;
 }
 
 a {
@@ -15,7 +15,7 @@ h1 {
     color: black;
 }
 p {
-    background-color: black;
+    background-color: white;
     font-weight:bold;
     font-size:18px;
 }
