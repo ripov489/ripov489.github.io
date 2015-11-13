@@ -106,17 +106,17 @@ body{
 
 #box4 {
     background: #9ab98b;
-    width: 300px;
+    width: 700px;
     height: 40px;
     position: absolute;
     text-align: center;
     top: 490px;
-    left: 110px;
+    left: -90px;
     -webkit-transform: rotate(90deg);
     z-index: -1;
 }
 
-body { background-color:#333; }
+body { background-color: #b7ceeb; }
 #snow{
 	background: none;
 	font-family: Androgyne;
