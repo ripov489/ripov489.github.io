@@ -153,5 +153,15 @@ body { background-color: #b7ceeb; }
     z-index: -1;
 }
 
+#box5 {
+    background: yellow;
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    text-align: center;
+    top: 250px;
+    left: 230px;
+    border-radius: 50px;
+}
 
 
