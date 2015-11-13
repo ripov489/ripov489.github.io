@@ -1,0 +1,162 @@
+body{
+    background-color: #65a6f7;
+}
+
+#box1 {
+    background: #960909;
+    width: 300px;
+    height: 300px;
+    position: absolute;
+    text-align: center;
+    top: 100px;
+    left: 100px;
+    -webkit-transform: rotate(20deg);
+       -moz-transform: rotate(20deg);
+        -ms-transform: rotate(20deg);
+         -o-transform: rotate(20deg);
+         -webkit-transition: -webkit-transform 4s ease-in-out;
+  transition: transform 4s ease-in-out;
+}
+
+#box1:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 300px;
+    width: 300px;
+    background: #960909;
+    -webkit-transform: rotate(135deg);
+       -moz-transform: rotate(135deg);
+        -ms-transform: rotate(135deg);
+         -o-transform: rotate(135deg);
+}
+
+#box1:hover{
+    -webkit-transform: rotate(360deg);
+  transform: rotate(360deg);
+}
+
+
+#box2 {
+    background: #aa0a0a;
+    width: 170px;
+    height: 170px;
+    position: absolute;
+    text-align: center;
+    top: 170px;
+    left: 160px;
+       -webkit-transform: rotate(20deg);
+       -moz-transform: rotate(20deg);
+        -ms-transform: rotate(20deg);
+         -o-transform: rotate(20deg);
+         -webkit-transition: -webkit-transform 4s ease-in-out;
+  transition: transform 4s ease-in-out;
+}
+
+#box2:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 170px;
+    width: 170px;
+    background: #aa0a0a;
+     -webkit-transform: rotate(135deg);
+       -moz-transform: rotate(135deg);
+        -ms-transform: rotate(135deg);
+         -o-transform: rotate(135deg);
+         -webkit-transition: -webkit-transform 4s ease-in-out;
+  transition: transform 4s ease-in-out;
+
+}
+
+#box2:hover{
+    -webkit-transform: rotate(360deg);
+  transform: rotate(360deg);
+}
+
+#box3 {
+    background: #c80d0d;
+    width: 80px;
+    height: 80px;
+    position: absolute;
+    text-align: center;
+    top: 220px;
+    left: 200px;
+    -webkit-transform: rotate(20deg);
+       -moz-transform: rotate(20deg);
+        -ms-transform: rotate(20deg);
+         -o-transform: rotate(20deg);
+}
+
+#box3:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 80px;
+    width: 80px;
+    background: #c80d0d;
+    -webkit-transform: rotate(135deg);
+       -moz-transform: rotate(135deg);
+        -ms-transform: rotate(135deg);
+         -o-transform: rotate(135deg);
+}
+
+#box4 {
+    background: #9ab98b;
+    width: 300px;
+    height: 40px;
+    position: absolute;
+    text-align: center;
+    top: 490px;
+    left: 110px;
+    -webkit-transform: rotate(90deg);
+    z-index: -1;
+}
+
+body { background-color:#333; }
+#snow{
+	background: none;
+	font-family: Androgyne;
+	background-image: url('http://www.wearewebstars.dk/codepen/img/s1.png'), url('http://www.wearewebstars.dk/codepen/img//s2.png'), url('http://www.wearewebstars.dk/codepen/img//s3.png');
+	height: 100%;
+	left: 0;
+	position: absolute;
+	top: 0;
+	width: 100%;
+	z-index:1;
+	-webkit-animation: snow 10s linear infinite;
+	-moz-animation: snow 10s linear infinite;
+	-ms-animation: snow 10s linear infinite;
+	animation: snow 10s linear infinite;
+}
+
+@keyframes snow {
+  0% {background-position: 0px 0px, 0px 0px, 0px 0px;}
+  50% {background-position: 500px 500px, 100px 200px, -100px 150px;}
+  100% {background-position: 500px 1000px, 200px 400px, -100px 300px;}
+}
+
+@-moz-keyframes snow {
+  0% {background-position: 0px 0px, 0px 0px, 0px 0px;}
+  50% {background-position: 500px 500px, 100px 200px, -100px 150px;}
+  100% {background-position: 400px 1000px, 200px 400px, 100px 300px;}
+}
+
+@-webkit-keyframes snow {
+  0% {background-position: 0px 0px, 0px 0px, 0px 0px;}
+  50% {background-position: 500px 500px, 100px 200px, -100px 150px;}
+  100% {background-position: 500px 1000px, 200px 400px, -100px 300px;}
+}
+
+@-ms-keyframes snow {
+  0% {background-position: 0px 0px, 0px 0px, 0px 0px;}
+  50% {background-position: 500px 500px, 100px 200px, -100px 150px;}
+  100% {background-position: 500px 1000px, 200px 400px, -100px 300px;}
+}	
+
+
+
+
