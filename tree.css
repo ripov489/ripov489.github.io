@@ -8,7 +8,7 @@ body { background-color: #b7ceeb; }
 	position: absolute;
 	top: 0;
 	width: 100%;
-	z-index:1;
+	z-index:-1;
 	-webkit-animation: snow 10s linear infinite;
 	-moz-animation: snow 10s linear infinite;
 	-ms-animation: snow 10s linear infinite;
@@ -53,6 +53,7 @@ body { background-color: #b7ceeb; }
          -o-transform: rotate(20deg);
          -webkit-transition: -webkit-transform 4s ease-in-out;
   transition: transform 4s ease-in-out;
+  
 }
 
 #box1:before {
@@ -89,6 +90,7 @@ body { background-color: #b7ceeb; }
          -o-transform: rotate(20deg);
          -webkit-transition: -webkit-transform 4s ease-in-out;
   transition: transform 4s ease-in-out;
+  
 }
 
 #box2:before {
