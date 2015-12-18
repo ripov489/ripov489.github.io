@@ -7,3 +7,13 @@
   background-color: #a7babe;
   z-index: 1;
 }
+
+.button1{
+  height: 10px;
+  width: 50px;
+  top: 64;
+  left: 540px;
+  position: absolute;
+  background-color: #dddddd;
+  z-index: 2;
+}
