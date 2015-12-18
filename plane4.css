@@ -1,8 +1,10 @@
 .button{
-  height: 70px;
-  width: 120px;
-  top: 340px;
-  left: 470px;
+  height: 10px;
+  width: 50px;
+  top: 64;
+  left: 540px;
   position: absolute;
-  background-color: black;
+  background-color: #dddddd;
+  z-index: 2;
 }
+
